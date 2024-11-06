@@ -82,8 +82,8 @@ Go Community: Follow blogs, forums, and contribute to open-source Go projects.
 Code Quality: Learn about Go idioms, style guides, and effective use of tools like gofmt and golint.
 
 
-
 1. Mastering the Go Standard Library
+-------------------------------------
 Go's standard library is vast and powerful. To truly become an expert, you should be familiar with the following key libraries:
 
 os, io, fmt, log, time, math: These libraries provide functionality for I/O, formatting, logging, time operations, and math functions.
@@ -91,6 +91,7 @@ context: A critical library for managing timeouts, cancellations, and passing re
 net/http and net: Master these for building servers, handling HTTP requests, and working with networking protocols.
 encoding/json, encoding/xml: Handling data serialization/deserialization formats.
 sync/atomic: Learn atomic operations for managing shared memory in a concurrent environment.
+
 2. Go Internals (Advanced)
 Go Runtime: Deep dive into the Go runtime, understanding the scheduler, goroutine management, and memory allocation.
 Reflection: Learn how Go handles reflection via the reflect package. It's an advanced topic but useful in certain use cases (e.g., frameworks, serialization).
