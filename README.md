@@ -255,49 +255,49 @@ Here's a concise list of all the topics you should master to become an expert in
 - Arrays, Slices, and Maps
 - Structs and Interfaces
 2. Concurrency and Goroutines
-Goroutines and Channels
-Select Statement
-Sync Package
-WaitGroups and Mutex
-Worker Pools
-Context Package
+- Goroutines and Channels
+- Select Statement
+- Sync Package
+- WaitGroups and Mutex
+- Worker Pools
+- Context Package
 3. Advanced Go Concepts
-Pointers
-Defer, Panic, Recover
-Error Handling and Custom Errors
-Reflection
-Go Interfaces and Embedding
+- Pointers
+- Defer, Panic, Recover
+- Error Handling and Custom Errors
+- Reflection
+- Go Interfaces and Embedding
 4. Go Standard Library
-I/O Operations (os, io, fmt)
-Networking (net, net/http)
-Time and Date Handling (time)
-JSON and XML Encoding/Decoding
-Logging (log)
-Context Management (context)
+- I/O Operations (os, io, fmt)
+- Networking (net, net/http)
+- Time and Date Handling (time)
+- JSON and XML Encoding/Decoding
+- Logging (log)
+- Context Management (context)
 5. Go Runtime and Garbage Collection
-Go Scheduler and Goroutine Management
-Memory Management and Escape Analysis
-Garbage Collection Mechanisms
+- Go Scheduler and Goroutine Management
+- Memory Management and Escape Analysis
+- Garbage Collection Mechanisms
 6. Performance Optimization
-Benchmarking and Profiling (pprof)
-Memory Profiling and Optimization
-Concurrency Performance
+- Benchmarking and Profiling (pprof)
+- Memory Profiling and Optimization
+- Concurrency Performance
 7. Design Patterns and Go Idioms
-Go Idioms (e.g., iota, anonymous functions)
-Singleton, Factory, Strategy Patterns
-Error Handling Patterns
-Dependency Injection
+- Go Idioms (e.g., iota, anonymous functions)
+- Singleton, Factory, Strategy Patterns
+- Error Handling Patterns
+- Dependency Injection
 8. Building Scalable Systems
-Distributed Systems
-Microservices Architecture
-Event-Driven Architecture
-Load Balancing and Scaling
+- Distributed Systems
+- Microservices Architecture
+- Event-Driven Architecture
+- Load Balancing and Scaling
 9. Web Development
-REST APIs
-gRPC
-WebSockets
-GraphQL APIs
-HTTP Server and Client
+- REST APIs
+- gRPC
+- WebSockets
+- GraphQL APIs
+- HTTP Server and Client
 10. Cloud and Serverless with Go
 Serverless Development (e.g., AWS Lambda, Google Cloud Functions)
 Kubernetes and Docker
