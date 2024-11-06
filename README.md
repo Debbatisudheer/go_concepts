@@ -1,12 +1,12 @@
 # go_concepts
 Go Syntax and Core Concepts
    ==========================
-a.Basic Syntax: Understanding Go's simple, readable syntax (variables, loops, conditionals).
-b.Data Types: Familiarity with built-in types (int, float, string, etc.) and custom types (structs, interfaces).
-c.Control Structures: Mastery of if, else, for loops, and switch statements.
-d.Functions: Function declaration, parameters, return types, and multiple return values.
-e.Error Handling: Go’s unique error handling pattern using error type.
-f.Packages: Learn how to organize your code into packages and manage dependencies.
+- Basic Syntax: Understanding Go's simple, readable syntax (variables, loops, conditionals).
+- Data Types: Familiarity with built-in types (int, float, string, etc.) and custom types (structs, interfaces).
+- Control Structures: Mastery of if, else, for loops, and switch statements.
+- Functions: Function declaration, parameters, return types, and multiple return values.
+- Error Handling: Go’s unique error handling pattern using error type.
+- Packages: Learn how to organize your code into packages and manage dependencies.
 
 Concurrency (Go's Strength)
 ===========================
