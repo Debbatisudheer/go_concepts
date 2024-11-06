@@ -1,82 +1,83 @@
 # go_concepts
 
 1. Go Syntax and Core Concepts
+   ==========================
 Basic Syntax: Understanding Go's simple, readable syntax (variables, loops, conditionals).
 Data Types: Familiarity with built-in types (int, float, string, etc.) and custom types (structs, interfaces).
 Control Structures: Mastery of if, else, for loops, and switch statements.
 Functions: Function declaration, parameters, return types, and multiple return values.
 Error Handling: Go’s unique error handling pattern using error type.
 Packages: Learn how to organize your code into packages and manage dependencies.
-2. Concurrency (Go's Strength)
+3. Concurrency (Go's Strength)
 Goroutines: Learn how to create and manage lightweight concurrent tasks.
 Channels: Use channels to communicate safely between goroutines.
 Select Statement: Handle multiple channels concurrently.
 Mutexes and sync: Synchronize access to shared resources in concurrent programs.
-3. Advanced Data Structures
+4. Advanced Data Structures
 Slices and Arrays: Understand how slices provide dynamic arrays and the difference between arrays and slices.
 Maps: Efficiently use hash tables (maps) for storing key-value pairs.
 Structs: Create and use custom data structures.
 Interfaces: Implement interfaces to define behavior and achieve polymorphism.
 Pointers: Deep understanding of pointers for memory management, including passing by reference.
-4. Go Modules and Dependency Management
+5. Go Modules and Dependency Management
 Go Modules (go mod): Master the modern way of managing dependencies and versioning.
 Vendor Dependencies: Learn how to handle dependencies in a vendor directory.
 Third-Party Packages: Become familiar with popular Go libraries (e.g., gorilla/mux for routing, logrus for logging).
-5. Memory Management
+6. Memory Management
 Garbage Collection: Understand Go’s garbage collector and how it manages memory.
 Memory Leaks: Identify and avoid memory leaks in long-running applications.
 Escape Analysis: Learn how Go decides whether a variable is allocated on the stack or the heap.
-6. Testing and Benchmarking
+7. Testing and Benchmarking
 Unit Testing: Use Go's built-in testing framework (testing package) to write tests for your code.
 Test Coverage: Understand how to measure and improve your test coverage.
 Benchmarking: Measure performance and optimize critical code sections using Go’s benchmarking tools.
 Mocking: Learn how to mock dependencies in unit tests.
-7. Go Routines and Channels Patterns
+8. Go Routines and Channels Patterns
 Fan-out / Fan-in: Efficient ways to distribute and collect results from concurrent operations.
 Worker Pools: Implement a pool of goroutines to handle tasks concurrently.
 Rate Limiting: Use channels and context to control the rate of concurrent operations.
-8. Network Programming
+9. Network Programming
 TCP/UDP Servers: Build and manage network applications using the net package.
 HTTP Servers: Create RESTful APIs using Go’s net/http and mux router.
 WebSockets: Use WebSockets for real-time communication.
 gRPC: Build efficient, high-performance microservices using gRPC.
-9. Go Runtime and Internal Mechanics
+10. Go Runtime and Internal Mechanics
 Go Scheduler: Understand how Go schedules goroutines and manages concurrency.
 Go Routines vs Threads: Understand the differences and why Go uses goroutines over traditional threads.
 Panic and Recover: Handle unexpected errors gracefully using panic and recover.
-10. Design Patterns
+11. Design Patterns
 Singleton, Factory, and Builder: Learn to implement common design patterns in Go.
 Observer Pattern: Manage event-driven architecture in Go.
 Decorator Pattern: Enhance the behavior of objects dynamically.
 Adapter Pattern: Integrate different systems smoothly.
-11. Logging and Monitoring
+12. Logging and Monitoring
 Logging: Master logging with popular libraries like logrus or zap.
 Metrics: Integrate monitoring tools like Prometheus for observability.
 Error Reporting: Use tools like Sentry for error tracking in production environments.
-12. Web Development
+13. Web Development
 HTTP Handlers and Routers: Work with HTTP routers (e.g., gorilla/mux or chi).
 Middleware: Implement middleware for HTTP request/response processing.
 Template Rendering: Use html/template or text/template to render HTML dynamically.
 API Design: Learn to build RESTful APIs and understand HTTP status codes, headers, and request/response formats.
-13. Go for Cloud and Distributed Systems
+14. Go for Cloud and Distributed Systems
 Docker: Containerize Go applications with Docker.
 Kubernetes: Deploy and manage Go applications in Kubernetes.
 Microservices: Build microservices architectures using Go and tools like gRPC and Protobuf.
 Cloud Providers: Integrate Go applications with AWS, GCP, or Azure services.
-14. Profiling and Optimization
+15. Profiling and Optimization
 Go Profiler: Use Go's built-in profiling tools (pprof) to identify performance bottlenecks.
 Memory Profiling: Track memory usage and reduce memory footprints.
 Concurrency Optimization: Fine-tune your concurrent code for better performance.
-15. Security Best Practices
+16. Security Best Practices
 Authentication and Authorization: Use JWT, OAuth, and other strategies for securing APIs.
 Input Validation: Sanitize user inputs to prevent security vulnerabilities like SQL injection.
 Encryption: Learn how to encrypt sensitive data using Go’s crypto package.
 Error Handling for Security: Handle errors in a way that doesn’t expose sensitive information.
-16. CI/CD and DevOps with Go
+17. CI/CD and DevOps with Go
 Automating Builds: Integrate Go with tools like Jenkins, GitHub Actions, or GitLab CI for continuous integration.
 Testing Automation: Automate your testing pipelines for consistent quality.
 Deployment Automation: Use scripts or tools like Terraform for infrastructure management.
-17. Go Community and Best Practices
+18. Go Community and Best Practices
 Code Reviews: Participate in and learn from Go code reviews.
 Go Community: Follow blogs, forums, and contribute to open-source Go projects.
 Code Quality: Learn about Go idioms, style guides, and effective use of tools like gofmt and golint.
